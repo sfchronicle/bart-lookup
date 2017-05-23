@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.seo_title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="__sync_contentCategory" content="meterA">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <%= !json.project.embedded ? t.include("partials/_paywall.html") : t.include("partials/_embedframe.html") %>
+
+    <%= t.include("partials/_head.html") %>
+
+  </head>
+
+  <%= !json.project.embedded ? "<body>" : "<body is='responsive-body'>" %>
+
+    <div class="hed">How often are the escalators at your Bart station out of service?</div>
+    <div class="chatter">Look up your Bart station here and see how it compares to other Bart stations. There are numerous escalators at each station, so note that some may perform significantly better or worse than others.</div>
+
+    <!-- <div class="station-container">
+      <% csv.stations.forEach(function(d,dIDX){ %>
+        <div id="<%=d.Stations%>" class="station"><%=d.Stations%></div>
+      <% }); %>
+    </div> -->
+
+    <div class="drop-down">
+      <div class="select-text">Select your BART station:</div>
+      <select name="select" id="select-station">
+        <option value="">-- </option>
+        <% csv.stations.forEach(function(d,idx){ %>
+          <option value='<%=d.Stations%>' class="station"><%=d.Stations%></option>
+        <% }); %>
+      </select>
+    </div>
+
+    <!-- <ul id="choose-bart-station">
+      <li><a href="">Station</a>
+        <ul>
+        <% csv.stations.forEach(function(d,dIDX){ %>
+          <li id="station<%=d.Stations%>"><a href=""><%=d.Stations%></a></li>
+        <% }); %>
+        </ul>
+      </li>
+    </ul> -->
+
+    <div id="aboutbar">
+      <div id="bars"></div>
+    </div>
+
+    <div id="aboutyourarea"></div>
+
+
+    <% csv.BARTescalators518.forEach(function(d,dIDX){ %>
+
+
+    <% }); %>
+
+    <div class="credit">
+      <div class="entry">Emma O'Neill  &bull; <a href="mailto:eoneill@sfchronicle.com">eoneill@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/emmaruthoneill" target="_blank">@emmaruthoneill</a></div>
+      <div class="entry" >About the data: Is there anything that we want to explain about the data?</div>
+      <div class="entry">Sources: We certainly did not get this data from <a href="http://www.google.com" target="_blank">Google</a>.</div>
+    </div>
+
+    <script>
+      var bartData = <%= JSON.stringify(csv.BARTescalators518) %>;
+    </script>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_helloSFC.html") %>
+
+  </body>
+</html>

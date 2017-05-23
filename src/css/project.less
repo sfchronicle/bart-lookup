@@ -1,0 +1,74 @@
+#bars {
+  overflow: auto;
+  width: 95%;
+  margin: 0 auto 15px auto;
+  position: relative;
+}
+
+.chatter, .credit {
+  max-width: 900px;
+  width: 80%;
+  margin: auto;
+}
+
+.bar {
+  display: inline-block;
+  vertical-align: bottom;
+  width: calc(100%/178);
+  min-height: 1px;
+  margin-bottom: 15px;
+}
+
+.black-bar {
+  background-color: #D8D8D8;
+}
+
+.active-bar {
+  background-color: @gray-blue;
+}
+
+#aboutyourarea {
+  font-family: @block-graphics;
+  text-align: center;
+  font-size: 14px;
+  .bold-text {
+    color: @gray-blue;
+    font-family: @med-graphics;
+  }
+}
+
+.station-container {
+  text-align: center;
+  .station {
+    display: inline-block;
+    font-size: 12px;
+    font-family: @block-graphics;
+    padding: 2px 5px;
+    border: 1px @gray-blue solid;
+  }
+  padding-bottom: 30px;
+}
+
+.drop-down {
+  font-family: @block-graphics;
+  font-size: 16px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  .select-text {
+    display: inline-block;
+  }
+  select {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 0;
+    font-family: @block-graphics;
+    font-size: 14px;
+    background: lighten(@light-gray,5%);
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+}
