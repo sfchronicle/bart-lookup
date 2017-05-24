@@ -16,8 +16,8 @@
 
   <%= !json.project.embedded ? "<body>" : "<body is='responsive-body'>" %>
 
-    <div class="hed">How often are the escalators at your Bart station out of service?</div>
-    <div class="chatter">Look up your Bart station here and see how it compares to other Bart stations. There are numerous escalators at each station, so note that some may perform significantly better or worse than others.</div>
+    <div class="hed">How often are your BART station's escalators out of service?</div>
+    <div class="chatter">Check your BART station here and see how it compares with other rapid transit stations across the Bay Area. The stations have multiple escalators, so note that some perform significantly better or worse than others.</div>
 
     <!-- <div class="station-container">
       <% csv.stations.forEach(function(d,dIDX){ %>
@@ -45,8 +45,11 @@
       </li>
     </ul> -->
 
+    <div id="bars-title"></div>
     <div id="aboutbar">
       <div id="bars"></div>
+      <div id="bottom-axis"></div>
+      <div id="left-axis"></div>
     </div>
 
     <div id="aboutyourarea"></div>
@@ -60,6 +63,7 @@
     <div class="credit">
       <div class="entry">Emma O'Neill  &bull; <a href="mailto:eoneill@sfchronicle.com">eoneill@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/emmaruthoneill" target="_blank">@emmaruthoneill</a></div>
       <div class="entry" >About the data: Is there anything that we want to explain about the data?</div>
+      <div class="entry">Note: Computation of the probability of encountering a broken elevator does not take into account factors that might increase the probability of an elevator breaking down, such as exposure to rain, and assumes that one elevator being broken is unrelated to others being broken.</div>
       <div class="entry">Sources: We certainly did not get this data from <a href="http://www.google.com" target="_blank">Google</a>.</div>
     </div>
 

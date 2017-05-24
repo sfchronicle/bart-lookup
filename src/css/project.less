@@ -1,7 +1,46 @@
+@highlight: lighten(#66101F,10%);
+
+body {
+  font-family: @block-graphics;
+}
+
+a {
+  color: @highlight;
+  &:hover {
+    color: darken(@highlight,10%);
+  }
+}
+
+.credit {
+  .entry {
+    padding: 3px 0;
+  }
+  // font-family: @med-graphics;
+}
+
+#bars-title {
+  max-width: 900px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: @med-graphics;
+  .bold-text {
+    color: @highlight;
+    font-family: @med-graphics;
+    font-size: 18px;
+  }
+}
+
 #bars {
   overflow: auto;
   width: 95%;
   margin: 0 auto 15px auto;
+  position: relative;
+  padding-left: 30px;
+}
+
+#aboutbar {
   position: relative;
 }
 
@@ -9,6 +48,12 @@
   max-width: 900px;
   width: 80%;
   margin: auto;
+}
+.credit {
+  padding-top: 40px;
+}
+.chatter {
+  padding: 20px 0;
 }
 
 .bar {
@@ -24,15 +69,39 @@
 }
 
 .active-bar {
-  background-color: @gray-blue;
+  background-color: @highlight;
+}
+
+#bottom-axis {
+  font-size: 12px;
+  margin-top: -22px;
+  margin-left: 50px;
+  font-family: @block-graphics;
+}
+#left-axis {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-size: 12px;
+  font-family: @block-graphics;
+  position:absolute;
+  top: 50px;
+  left: -35px;
+  // float:left;
+  width: 145px;
+  height: 20px;
 }
 
 #aboutyourarea {
+  padding-top: 20px;
   font-family: @block-graphics;
   text-align: center;
   font-size: 14px;
   .bold-text {
-    color: @gray-blue;
+    font-size: 16px;
+    color: @highlight;
     font-family: @med-graphics;
   }
 }
