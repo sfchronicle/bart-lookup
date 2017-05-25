@@ -14,10 +14,9 @@ function getridership(data,station) {
 
 var dropDown = document.getElementById('select-station');
 dropDown.addEventListener('change', function(d) {
-  console.log(dropDown.value);
   bars.innerHTML = '';
 
-  var html_summary = "<div class='stat'>The individual escalator(s) at this station had the following number of days out of service: ";
+  var html_summary = "<div class='stat'><div class='title-span'>The individual escalator(s) at this station had the following number of days out of service: </div>";
   var probability_list = [];
   for (var i = 0; i < bartData.length; i++) {
 
@@ -35,8 +34,8 @@ dropDown.addEventListener('change', function(d) {
   html_summary += "</div>"
   var aboutyourarea = document.getElementById('aboutyourarea');
   aboutyourarea.innerHTML = html_summary;
-  bottomAxis.innerHTML = "All Bart escalators, ordered by downtime days";
-  leftAxis.innerHTML = "Total down time (days)";
+  bottomAxis.innerHTML = "All BART escalators, ordered by downtime days";
+  leftAxis.innerHTML = "Total downtime (days)";
   var probability_product = 1;
   for (var ii=0; ii<probability_list.length; ii++) {
     probability_product = probability_product*probability_list[ii];
@@ -47,33 +46,6 @@ dropDown.addEventListener('change', function(d) {
   var info = getridership(stationData,dropDown.value);
   var ridership = info[0]["Ridership"]
 
-  barsTitle.innerHTML = "On a random day, you have a <span class='bold-text'>"+nice_probability+"%</span> chance of encountering at least one broken escalator at "+dropDown.value+" station, where there are a total of <span class='bold-text'>"+probability_list.length+"</span> escalators(s) and <span class='bold-text'>"+ridership+"</span> riders daily.";
+  barsTitle.innerHTML = "On a random day, you have a <span class='bold-text'>"+nice_probability+"%</span> chance of encountering at least one nonfunctioning escalator at "+dropDown.value+" station, where there are a total of <span class='bold-text'>"+probability_list.length+"</span> escalators(s) and <span class='bold-text'>"+ridership+"</span> riders daily.";
 
 });
-
-
-// var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
-// qsa(".station").forEach(function(group,index) {
-//   group.addEventListener("click", function(e) {
-//     console.log(group);
-//     bars.innerHTML = '';
-//
-//     var html_summary = "<div class='stat'>Escalator(s) had: ";
-//     for (var i = 0; i < bartData.length; i++) {
-//
-//       if (bartData[i].Station == group.id) {
-//         bars.insertAdjacentHTML("beforeend","<div class='bar active-bar' style='height: calc(130px*" + bartData[i].TotalDowntimeDays/342.5 + ")'></div>");
-//
-//         html_summary += "<div><span class='bold-text'> " + bartData[i].TotalDowntimeDays + "</span> downtime days, "+bartData[i].Rank+" most in the system </div>";
-//
-//         // bars.insertAdjacentHTML("beforeend","<span id='ranking'>Your neighborhood ranked <span class='bold-text'>" + bartData[i].TotalDowntimeDays + "</span> for most Airbnb listings.</span>");
-//       }
-//       else {
-//         bars.insertAdjacentHTML("beforeend","<div class='bar black-bar' style='height: calc(130px*" + bartData[i].TotalDowntimeDays/342.5 + ")'></div>");
-//       }
-//     }
-//     html_summary += "</div>"
-//     var aboutyourarea = document.getElementById('aboutyourarea');
-//     aboutyourarea.innerHTML = html_summary;
-//   });
-// });

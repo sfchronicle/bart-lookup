@@ -1,0 +1,178 @@
+Escalator Downtime,Station,Escalator Description,Maker,RepairDowntimeDays,PMDowntimeDays,TotalDowntimeDays,Rank
+M40-S5,Civic,"Escalator, HD, O&K (POS 101), M40-S5",O&K,332,10.5,342.5,1st
+M40-S3,Civic,"Escalator, 48N, WEST (POS 201), M40-S3",WEST,294.6,39.5,334.1,2nd
+M20-S1,Montgomery,"Escalator, 48N, WEST (POS 102), M20-S1",WEST,276.8,36.5,313.3,3rd
+M50-S2,16th,"Escalator, HD, O&K (POS 201), M50-S2",O&K,293.9,19,312.9,4th
+M30-S2,Powell,"Escalator, HD, O&K (POS 201), M30-S2",O&K,239.6,31.5,271.1,5th
+M60-S3,24th,"Escalator, HD, O&K (POS 101), M60-S3",O&K,239.4,12,251.4,6th
+M90-P4,Daly City,"Escalator, 5E, MONT (POS 207), M90-P4",MONT,215.2,28.5,243.7,7th
+M40-S2,Civic,"Escalator, HD, O&K (POS 201), M40-S2",O&K,168.4,40,208.4,8th
+W40-P1,Millbrae,"Escalator, 120, FUJI (POS 204), W40-P1",FUJI,142,60.5,202.5,9th
+M16-S1,Embarcadero,"Escalator, HD, O&K (POS 102), M16-S1",O&K,142.3,55.5,197.8,10th
+L30-P1,Dublin/Pleas,"Escalator, 120, FUJI (POS 208), L30-P1",FUJI,123.2,71.5,194.7,11th
+M70-P1,Glen Park,"Escalator, 5E, MONT (POS 207), M70-P1",MONT,118,51,169,12th
+M30-S6,Powell,"Escalator, 48N, WEST (POS 101), M30-S6",WEST,123.8,45,168.8,13th
+M40-P4,Civic,"Escalator, 38E, WEST (POS 303), M40-P4",WEST,99.2,68.5,167.7,14th
+M16-S2,Embarcadero,"Escalator, HD, O&K (POS 102), M16-S2",O&K,111.2,55,166.2,15th
+K10-P8,12th St.,"Escalator, 38E, WEST (POS 305), K10-P8",WEST,91.8,65.5,157.3,16th
+W40-P3,Millbrae,"Escalator, 120, FUJI (POS 204), W40-P3",FUJI,87.6,67.3,155,17th
+M80-P2,Balboa Park,"Escalator, 120, FUJI (POS 207), M80-P2",FUJI,101.1,50.5,151.6,18th
+C60-P2,Concord,"Escalator, 48N, WEST (POS-108), C60-P2",WEST,65.2,83.5,148.7,19th
+M30-S8,Powell,"Escalator, HD, O&K (POS 101), M30-S8",O&K,107.1,40,147.1,20th
+K20-S3,19th,"Escalator, 48N, WEST (POS-110), K20-S3",WEST,72.3,72.5,144.8,21st
+M20-S8,Montgomery,"Escalator, 48N, WEST (POS 201), M20-S8",WEST,90.1,54.5,144.6,22nd
+M40-S10,Civic,"Escalator, 5E, MONT (POS 101), M40-S10",MONT,119.9,23.5,143.4,23rd
+M60-S2,24th,"Escalator, HD, O&K (POS 201), M60-S2",O&K,102,41,143,24th
+M20-P5,Montgomery,"Escalator, 38E, WEST (POS 301), M20-P5",WEST,78.1,64.5,142.6,25th
+M20-S3,Montgomery,"Escalator, HD, O&K (POS 102), M20-S3",O&K,112.7,28.2,140.9,26th
+K10-S1,12th St.,"Escalator, 38E, WEST (POS-110), K10-S1",WEST,82.8,56,138.8,27th
+K20-S5,19th,"Escalator, 48N, WEST (POS-110), K20-S5",WEST,76.9,61.5,138.4,28th
+M20-P2,Montgomery,"Escalator, 38E, WEST (POS 301), M20-P2",WEST,71.4,67,138.4,29th
+M30-S1,Powell,"Escalator, 48N, WEST (POS 201), M30-S1",WEST,89.1,46,135.1,30th
+M30-S7,Powell,"Escalator, HD, O&K (POS 101), M30-S7",O&K,96.7,35.5,132.2,31st
+M16-S7,Embarcadero,"Escalator, HD, O&K (POS 102), M16-S7",O&K,68.5,62,130.5,32nd
+M16-S6,Embarcadero,"Escalator, HD, O&K (POS 102), M16-S6",O&K,73.3,55.5,128.8,33rd
+M20-P1,Montgomery,"Escalator, 38E, WEST (POS 301), M20-P1",WEST,56.1,71.5,127.6,34th
+M16-P2,Embarcadero,"Escalator, 5TR, KONE (POS 301), M16-P2",KONE,63.2,64,127.2,35th
+W30-P1,San Bruno,"Escalator, 120, FUJI (POS 302), W30-P1",FUJI,65.2,60.3,125.5,36th
+M30-P1,Powell,"Escalator, 38E, WEST (POS 303), M30-P1",WEST,43.7,81,124.7,37th
+M20-S5,Montgomery,"Escalator, 48N, WEST (POS 102), M20-S5",WEST,69,55.5,124.5,38th
+K10-S5,12th St.,"Escalator, J, OTIS J (POS 203), K10-S5",OTIS,24.2,99.5,123.7,39th
+R60-P1,Richmond,"Escalator, 5E, MONT (POS 308), R60-P1",MONT,66,57,123,40th
+M30-P5,Powell,"Escalator, 38E, WEST (POS 303), M30-P5",WEST,63.7,58.5,122.2,41st
+K10-S6,12th St.,"Escalator, J, OTIS J (POS-110), K10-S6",OTIS,39.1,83,122.1,42nd
+A30-S1,Coliseum,"Escalator, RB, OTIS RB (POS 120), A30-S1",OTIS,28.8,92.5,121.3,43rd
+K10-S3,12th St.,"Escalator, 48N, WEST (POS-110), K10-S3",WEST,60.2,57.5,117.7,44th
+K20-S4,19th,"Escalator, 48N, WEST (POS-110), K20-S4",WEST,39.6,78,117.6,45th
+K10-S2,12th St.,"Escalator, 48N, WEST (POS-110), K10-S2",WEST,49.8,65.5,115.3,46th
+W40-P5,Millbrae,"Escalator, 120, FUJI (POS 204), W40-P5",FUJI,48.6,66,114.6,47th
+M20-S4,Montgomery,"Escalator, HD, O&K (POS 102), M20-S4",O&K,74.4,38.8,113.3,48th
+M40-S9,Civic,"Escalator, HD, O&K (POS 101), M40-S9",O&K,83.9,28,111.9,49th
+M16-P4,Embarcadero,"Escalator, 5TR, KONE (POS 301), M16-P4",KONE,47.5,64,111.5,50th
+A20-P2,Fruitvale,"Escalator, 38E, WEST (POS 205), A20-P2",WEST,25.6,85,110.6,51st
+K10-S4,12th St.,"Escalator, J, OTIS J (POS-110), K10-S4",OTIS,22,88.5,110.5,52nd
+R60-P2,Richmond,"Escalator, 5E, MONT (POS 308), R60-P2",MONT,44.7,65.5,110.2,53rd
+W20-P2,South SF,"Escalator, 120, FUJI (POS 302), W20-P2",FUJI,49.1,60.5,109.6,54th
+A10-P2,Lake Merritt,"Escalator, 48N, WEST (POS 304), A10-P2",WEST,18.3,89,107.3,55th
+C40-P2,Walnut Creek,"Escalator, 48N, WEST (POS 202), C40-P2",WEST,13.7,93,106.7,56th
+M16-S4,Embarcadero,"Escalator, HD, O&K (POS 102), M16-S4",O&K,37.6,69,106.6,58th
+M30-P2,Powell,"Escalator, 38E, WEST (POS 303), M30-P2",WEST,36.6,70,106.6,57th
+R30-P2,N. Berkeley,"Escalator, 5E, MONT (POS 307), R30-P2",MONT,35.8,69.5,105.3,59th
+C10-S2,Rockridge,"Escalator, 48N, WEST (POS 202), C10-S2",WEST,21.4,83.5,104.9,61st
+C80-P1,Pittsburg/BP,"Escalator, 120, FUJI (POS 202), C80-P1",FUJI,39.9,65,104.9,60th
+W40-P7,Millbrae,"Escalator, 120, FUJI (POS 206), W40-P7",FUJI,51.8,50.5,102.3,62nd
+K30-P4,MacArthur,"Escalator, 48N, WEST (POS 307), K30-P4",WEST,32,70,102,63rd
+C80-P2,Pittsburg/BP,"Escalator, 120, FUJI (POS-108), C80-P2",FUJI,28.5,73,101.5,64th
+C40-P1,Walnut Creek,"Escalator, 48N, WEST (POS 107), C40-P1",WEST,20.9,80.5,101.4,65th
+K10-P7,12th St.,"Escalator, 48N, WEST (POS 305), K10-P7",WEST,24.4,76.5,100.9,66th
+M30-P3,Powell,"Escalator, 38E, WEST (POS 303), M30-P3",WEST,42.3,58.5,100.8,67th
+C20-P1,Orinda,"Escalator, 48N, WEST (POS 306), C20-P1",WEST,17.1,82,99.1,68th
+M16-P3,Embarcadero,"Escalator, 5TR, KONE (POS 301), M16-P3",KONE,40.4,58.5,98.9,69th
+C70-P2,N.Concord,"Escalator, 120, FUJI (POS 202), C70-P2",FUJI,45.7,52.5,98.2,70th
+C10-S1,Rockridge,"Escalator, 48N, WEST (POS 202), C10-S1",WEST,7.2,90.5,97.7,72nd
+K10-S7,12th St.,"Escalator, J, OTIS J (POS 203), K10-S7",OTIS,13.2,84.5,97.7,71st
+C60-P1,Concord,"Escalator, 48N, WEST (POS 202), C60-P1",WEST,6.8,90.5,97.3,73rd
+K30-P3,MacArthur,"Escalator, 48N, WEST (POS 307), K30-P3",WEST,16.8,79.5,96.3,74th
+A70-P2,S. Hayward,"Escalator, 48N, WEST (POS 109), A70-P2",WEST,18.1,78,96.1,75th
+M90-P3,Daly City,"Escalator, 5E, MONT (POS 207), M90-P3",MONT,22.4,72.5,94.9,76th
+R20-S2,Berkeley,"Escalator, 48N, WEST (POS 203), R20-S2",WEST,25.2,68.5,93.7,77th
+A50-P1,Bay Fair,"Escalator, 48N, WEST (POS 304), A50-P1",WEST,10.1,83.5,93.6,78th
+M20-S7,Montgomery,"Escalator, 48N, WEST (POS 102), M20-S7",WEST,26.5,67,93.5,79th
+R10-P2,Ashby,"Escalator, 5E, MONT (POS 308), R10-P2",MONT,48.9,44,92.9,80th
+L10-P1,Castro Valley,"Escalator, 120, FUJI (POS 208), L10-P1",FUJI,22.8,70,92.8,81st
+A40-P2,San Leandro,"Escalator, 38E, WEST (POS 205), A40-P2",WEST,13.1,79.5,92.6,82nd
+W10-P2,Colma,"Escalator, 120, FUJI (POS 302), W10-P2",FUJI,19.1,73,92.1,83rd
+K20-P10,19th,"Escalator, 38E, WEST (POS 306), K20-P10",WEST,25.9,65.5,91.4,84th
+A60-P1,Hayward,"Escalator, 48N, WEST (POS 304), A60-P1",WEST,11.5,79.5,91,85th
+M40-S6,Civic,"Escalator, 48N, WEST (POS 201), M40-S6",WEST,40.3,50.5,90.8,86th
+A20-P4,Fruitvale,"Escalator, 38E, WEST (POS 205), A20-P4",WEST,24.7,65.5,90.2,87th
+A30-S2,Coliseum,"Escalator, RB, OTIS RB (POS 120), A30-S2",OTIS,9.7,80.5,90.2,88th
+M40-P1,Civic,"Escalator, 38E, WEST (POS 303), M40-P1",WEST,24.3,65.5,89.8,89th
+A60-P2,Hayward,"Escalator, 48N, WEST (POS 304), A60-P2",WEST,15.5,74,89.5,90th
+A10-S2,Lake Merritt,"Escalator, 48N, WEST (POS 304), A10-S2",WEST,7.3,82,89.3,91st
+C50-P2,Pleasant Hill,"Escalator, 38E, WEST (POS 202), C50-P2",WEST,8.6,80.5,89.1,92nd
+M10-P2,W. Oakland,"Escalator, 5E, MONT (POS 305), M10-P2",MONT,32.3,56.5,88.8,93rd
+A10-S1,Lake Merritt,"Escalator, 48N, WEST (POS 304), A10-S1",WEST,11.8,76.5,88.3,94th
+K10-P6,12th St.,"Escalator, 48N, WEST (POS 305), K10-P6",WEST,7.8,80.5,88.3,95th
+A40-P4,San Leandro,"Escalator, 38E, WEST (POS 205), A40-P4",WEST,14.1,74,88.1,96th
+A30-P1,Coliseum,"Escalator, 48N, WEST (POS 120), A30-P1",WEST,9.8,78,87.8,97th
+M16-P6,Embarcadero,"Escalator, 5TR, KONE (POS 301), M16-P6",KONE,21.9,65,86.9,98th
+A30-P2,Coliseum,"Escalator, 48N, WEST (POS 120), A30-P2",WEST,15.8,71,86.8,99th
+K10-P3,12th St.,"Escalator, 48N, WEST (POS 305), K10-P3",WEST,8.8,78,86.8,100th
+K30-P2,MacArthur,"Escalator, 48N, WEST (POS 307), K30-P2",WEST,2.8,83.5,86.3,101st
+A20-P3,Fruitvale,"Escalator, 38E, WEST (POS 120), A20-P3",WEST,24.7,61.5,86.2,102nd
+K10-P12,12th St.,"Escalator, 38E, WEST (POS 305), K10-P12",WEST,24.7,61.5,86.2,103rd
+K30-P1,MacArthur,"Escalator, 48N, WEST (POS 307), K30-P1",WEST,6.5,79.5,86,104th
+M60-P1,24th,"Escalator, 5E, MONT (POS 207), M60-P1",MONT,37.5,48.5,86,105th
+K10-P10,12th St.,"Escalator, 38E, WEST (POS 305), K10-P10",WEST,28.4,57.5,85.9,106th
+M40-P2,Civic,"Escalator, 38E, WEST (POS 303), M40-P2",WEST,18.5,67,85.5,107th
+A20-P1,Fruitvale,"Escalator, 38E, WEST (POS120), A20-P1",WEST,8.7,76.5,85.2,108th
+M50-S3,16th,"Escalator, HD, O&K (POS 201), M50-S3",O&K,62.5,22.5,85,109th
+K20-P6,19th,"Escalator, 38E, WEST (POS 306), K20-P6",WEST,23,61.5,84.5,110th
+C10-P1,Rockridge,"Escalator, 48N, WEST (POS 306), C10-P1",WEST,18.6,65.5,84.1,111st
+K20-S2,19th,"Escalator, 48N, WEST (POS-110), K20-S2",WEST,17.9,65.5,83.4,112nd
+W10-G1,Colma,"Escalator, 120, FUJI (POS 302), W10-G1",FUJI,10.1,73,83.1,113rd
+M50-P1,16th,"Escalator, 5E, MONT (POS 303), M50-P1",MONT,30.9,52,82.9,114th
+C50-P1,Pleasant Hill,"Escalator, 38E, WEST (POS 107), C50-P1",WEST,10.3,72,82.3,115th
+A10-P1,Lake Merritt,"Escalator, 48N, WEST (POS 304), A10-P1",WEST,2.3,79.5,81.8,116th
+A70-P1,S. Hayward,"Escalator, 48N, WEST (POS 109), A70-P1",WEST,12.3,68.5,80.8,117th
+K10-S8,12th St.,"Escalator, 48N, WEST (POS-110), K10-S8",WEST,26,54.5,80.5,118th
+L30-P3,Dublin/Pleas,"Escalator, 120, FUJI (POS 208), L30-P3",FUJI,22.4,58,80.4,119th
+M20-P4,Montgomery,"Escalator, 38E, WEST (POS 301), M20-P4",WEST,13.4,67,80.4,120th
+R20-P1,Berkeley,"Escalator, 48N, WEST (POS 307), R20-P1",WEST,7.4,72.5,79.9,121st
+K10-P2,12th St.,"Escalator, 38E, WEST (POS 305), K10-P2",WEST,10.3,69.5,79.8,122nd
+C70-P1,N. Concord,"Escalator, 120, FUJI (POS-108), C70-P1",FUJI,14.4,65,79.4,123rd
+M20-P3,Montgomery,"Escalator, 38E, WEST (POS 301), M20-P3",WEST,9.9,68.5,78.4,124th
+K20-P2,19th,"Escalator, 38E, WEST (POS 306), K20-P2",WEST,16.8,61.5,78.3,125th
+K10-P4,12th St.,"Escalator, 38E, WEST (POS 305), K10-P4",WEST,2.7,75,77.7,126th
+M70-P2,Glen Park,"Escalator, 5E, MONT (POS 207), M70-P2",MONT,26,51,77,127th
+C30-P1,Lafayette,"Escalator, 48N, WEST (POS 107), C30-P1",WEST,3.4,73.5,76.9,128th
+M10-P1,W. Oakland,"Escalator, 5E, MONT (POS 305), M10-P1",MONT,18.9,58,76.9,129th
+W10-P4,Colma,"Escalator, 120, FUJI (POS 302), W10-P4",FUJI,11.9,65,76.9,130th
+R10-P1,Ashby,"Escalator, 5E, MONT (POS 308), R10-P1",MONT,4.7,71,75.7,132nd
+W20-P1,South SF,"Escalator, 120, FUJI (POS 302), W20-P1",FUJI,15.2,60.5,75.7,133rd
+W40-P6,Millbrae,"Escalator, 120, FUJI (POS 204), W40-P6",FUJI,16.8,59,75.7,131st
+A40-P3,San Leandro,"Escalator, 38E, WEST (POS 120), A40-P3",WEST,10.1,65.5,75.6,134th
+L30-P2,Dublin/Pleas,"Escalator, 120, FUJI (POS 208), L30-P2",FUJI,17.5,58,75.5,136th
+M80-P1,Balboa Park,"Escalator, 5E, MONT (POS 207), M80-P1",MONT,26,49.5,75.5,135th
+A90-P1,Fremont,"Escalator, 5E, MONT (POS 208), A90-P1",MONT,17.3,58,75.3,137th
+M90-S1,Daly City,"Escalator, 5TR, KONE (POS 105), M90-S1",KONE,45.4,29.5,74.9,138th
+R30-P1,N. Berkeley,"Escalator, 5E, MONT (POS 307), R30-P1",MONT,16.8,58,74.8,139th
+R20-S1,Berkeley,"Escalator, 48N, WEST (POS 203), R20-S1",WEST,9.2,64.5,73.7,140th
+M30-P4,Powell,"Escalator, 38E, WEST (POS 303), M30-P4",WEST,8.6,64.5,73.1,141st
+W40-P10,Millbrae,"Escalator, 120, FUJI (P0S 206), W40-P10",FUJI,27.9,45,72.9,142nd
+M90-P2,Daly City,"Escalator, 5E, MONT (POS 207), M90-P2",MONT,17.8,55,72.8,143rd
+W10-G2,Colma,"Escalator, 120, FUJI (POS 302), W10-G2",FUJI,7,64.5,71.5,144th
+R50-P2,EC Del Norte,"Escalator, 5E, MONT (POS 308), R50-P2",MONT,10.2,61,71.2,145th
+A80-P2,Union City,"Escalator, 5E, MONT (POS 109), A80-P2",MONT,15.1,55.5,70.6,146th
+W30-P3,San Bruno,"Escalator, 120, FUJI (POS 302), W30-P3",FUJI,4.6,65.8,70.4,147th
+A40-P1,San Leandro,"Escalator, 38E, WEST (POS 120), A40-P1",WEST,5.8,64,69.8,148th
+K20-P4,19th,"Escalator, 38E, WEST (POS 306), K20-P4",WEST,5.1,64.5,69.6,149th
+K20-P5,19th,"Escalator, 48N, WEST (POS 306), K20-P5",WEST,7.8,61.5,69.3,150th
+W40-S1,Millbrae,"Escalator, 120, FUJI (POS 206), W40-S1",FUJI,19.9,49,68.9,151st
+L20-P2,West D/P,"Escalator, SCHINDLER, (POS 109), L20-P2",SCHIN,40.3,28.5,68.8,152nd
+M20-S9,Montgomery,"Escalator, 48N, WEST (POS 201), M20-S9",WEST,13.6,54.5,68.1,153rd
+K20-P7,19th,"Escalator, 38E, WEST (POS 306), K20-P7",WEST,5.9,61.5,67.4,154th
+A80-P1,Union City,"Escalator, SCHIN (POS 109), A80-P1",SCHIN,40.3,27,67.3,155th
+M40-P3,Civic,"Escalator, 38E, WEST (POS 303), M40-P3",WEST,4.3,61.5,65.8,156th
+K20-P3,19th,"Escalator, 48N, WEST (POS 306), K20-P3",WEST,2.6,63,65.6,157th
+K20-P9,19th,"Escalator, 48N, WEST (POS 306), K20-P9",WEST,1.6,61.5,63.1,158th
+R40-P1,EC Plaza,"Escalator, 5E, MONT (POS 308), R40-P1",MONT,4.2,58,62.2,159th
+M16-S5,Embarcadero,"Escalator, HD, O&K (POS 102), M16-S5",O&K,21,40.5,61.5,160th
+K10-P9,12th St.,"Escalator, 48N, WEST (POS 305), K10-P9",WEST,2.3,58.5,60.8,161st
+R50-P1,EC Del Norte,"Escalator, 5E, MONT (POS 308), R50-P1",MONT,2,55.5,57.5,162nd
+L10-P2,Castro Valley,"Escalator, 120, FUJI (POS 208), L10-P2",FUJI,5.7,51,56.7,163rd
+A90-P2,Fremont,"Escalator, 5E, MONT (POS 208), A90-P2",MONT,7.9,48,55.9,164th
+K20-P8,19th,"Escalator, 38E, WEST (POS 306), K20-P8",WEST,2.6,49,51.6,165th
+R40-P2,EC Plaza,"Escalator, 5E, MONT (POS 308), R40-P2",MONT,3.1,48,51.1,166th
+A80-P3,Union City,"Escalator, SCHIN (POS 109), A80-P3",SCHIN,24.7,25.5,50.2,167th
+H10-P4,Oakland Airpt,"Escalator, 9300, SCHIN (POS 109), H10-P4",SCHIN,18.6,31,49.6,168th
+M80-S1,Balboa Park,"Escalator, 5E, MONT (POS 105), M80-S1",MONT,7.6,41.5,49.1,169th
+M40-S7,Civic,"Escalator, HD, O&K (POS 101), M40-S7",O&K,30,16,46,170th
+L20-P1,West D/P,"Escalator, SCHINDLER, (POS 109), L20-P1",SCHIN,7.4,32.5,39.9,171st
+H10-P3,Oakland Airpt,"Escalator, 9300, SCHIN (POS 109), H10-P3",SCHIN,17.1,21.5,38.6,172nd
+S20-P2,Warm Springs,"ESCALATOR, 9700, SCHIN, (POS _), S20-P2",SCHIN,4.7,0,4.7,173rd
+S20-P3,Warm Springs,"ESCALATOR, 9700, SCHIN, (POS _), S20-P3",SCHIN,1.9,0,1.9,174th
+S20-P1,Warm Springs,"ESCALATOR, 9700, SCHIN, (POS _), S20-P1",SCHIN,0.8,0,0.8,175th
+S20-S3,Warm Springs,"ESCALATOR, 9700, SCHIN, (POS _), S20-S3",SCHIN,0.5,0,0.5,176th
+W40-P4,Millbrae,"Escalator, 120, FUJI (POS 204), W40-P4",FUJI,0.1,0,0.1,177th
