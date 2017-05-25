@@ -19,12 +19,6 @@
     <div class="hed">How often are your BART station's escalators out of service?</div>
     <div class="chatter">Check your BART station here and see how it compares with other rapid transit stations across the Bay Area. The stations have multiple escalators, so note that some perform significantly better or worse than others.</div>
 
-    <!-- <div class="station-container">
-      <% csv.stations.forEach(function(d,dIDX){ %>
-        <div id="<%=d.Stations%>" class="station"><%=d.Stations%></div>
-      <% }); %>
-    </div> -->
-
     <div class="drop-down">
       <div class="select-text">Select your BART station:</div>
       <select name="select" id="select-station">
@@ -35,16 +29,6 @@
       </select>
     </div>
 
-    <!-- <ul id="choose-bart-station">
-      <li><a href="">Station</a>
-        <ul>
-        <% csv.stations.forEach(function(d,dIDX){ %>
-          <li id="station<%=d.Stations%>"><a href=""><%=d.Stations%></a></li>
-        <% }); %>
-        </ul>
-      </li>
-    </ul> -->
-
     <div id="bars-title"></div>
     <div id="aboutbar">
       <div id="bars"></div>
@@ -54,21 +38,16 @@
 
     <div id="aboutyourarea"></div>
 
-
-    <% csv.BARTescalators518.forEach(function(d,dIDX){ %>
-
-
-    <% }); %>
-
     <div class="credit">
       <div class="entry">Emma O'Neill  &bull; <a href="mailto:eoneill@sfchronicle.com">eoneill@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/emmaruthoneill" target="_blank">@emmaruthoneill</a></div>
-      <div class="entry" >About the data: Is there anything that we want to explain about the data?</div>
-      <div class="entry">Note: Computation of the probability of encountering a broken elevator does not take into account factors that might increase the probability of an elevator breaking down, such as exposure to rain, and assumes that one elevator being broken is unrelated to others being broken.</div>
-      <div class="entry">Sources: We certainly did not get this data from <a href="http://www.google.com" target="_blank">Google</a>.</div>
+      <div class="entry">About the data: The data reflect the number of days escalators were out of service between April 1, 2015 and April 19. 2017.</div>
+      <div class="entry">Note: Computation of the probability of encountering a broken escalator does not take into account factors that might increase the probability of an escalator breaking down, such as exposure to rain, and assumes that one escalator being broken is unrelated to others being broken.</div>
+      <div class="entry">Source: Bay Area Rapid Transit District</div>
     </div>
 
     <script>
       var bartData = <%= JSON.stringify(csv.BARTescalators518) %>;
+      var stationData = <%= JSON.stringify(csv.stations) %>;
     </script>
 
     <script src="app.js" async></script>
