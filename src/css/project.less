@@ -1,7 +1,14 @@
 @highlight: darken(#0083D2,5%);//lighten(#66101F,10%);
 
 body {
+}
+
+.interactive-container {
   font-family: @block-graphics;
+  padding: 60px 0;
+  @media @mobile {
+    padding: 30px 0;
+  }
 }
 
 .hed-container {
@@ -18,17 +25,17 @@ body {
 
 .hed {
   font-family: @med-graphics;
-  position: absolute;
-  bottom: 50px;
-  font-size: 30px;
-  max-width: 600px;
+  // position: absolute;
+  // bottom: 50px;
+  font-size: 25px;
+  // max-width: 600px;
   margin: auto;
 
-  left: 0; right: 0;
+  // left: 0; right: 0;
   color: @highlight;
   @media @mobile {
     font-size: 20px;
-    bottom: 15px;
+    // bottom: 15px;
   }
 }
 
@@ -96,16 +103,16 @@ a {
 .chatter {
   font-size: 16px;
   padding: 20px 0;
-  @media @mobile {
-    padding-top: 10px;
-  }
+  // @media @mobile {
+  //   padding-top: 10px;
+  // }
 }
 
 .bar {
   display: inline-block;
   vertical-align: bottom;
   width: calc(100%/178);
-  min-height: 2px;
+  min-height: 3px;
   margin-bottom: 15px;
 }
 
@@ -120,8 +127,11 @@ a {
 #bottom-axis {
   font-size: 12px;
   margin-top: -22px;
-  margin-left: 50px;
+  margin-left: 60px;
   font-family: @block-graphics;
+  @media @mobile {
+    margin-left: 40px;
+  }
 }
 #left-axis {
   -webkit-transform: rotate(-90deg);

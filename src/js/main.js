@@ -15,7 +15,7 @@ function getridership(data,station) {
 function fillInfo(){
   bars.innerHTML = '';
 
-  var html_summary = "<div class='stat'><div class='title-span'>The individual escalator(s) at this station had this many days out of service: </div>";
+  var html_summary = "<div class='stat'><div class='title-span'>The individual escalator(s) at this station had this many days out of service over the past two years: </div>";
   var probability_list = [];
   for (var i = 0; i < bartData.length; i++) {
 
@@ -33,7 +33,7 @@ function fillInfo(){
   html_summary += "</div>"
   var aboutyourarea = document.getElementById('aboutyourarea');
   aboutyourarea.innerHTML = html_summary;
-  bottomAxis.innerHTML = "All BART escalators, ordered by downtime days";
+  bottomAxis.innerHTML = "All 177 BART escalators, ordered by downtime days";
   leftAxis.innerHTML = "Total downtime (days)";
   var probability_product = 1;
   for (var ii=0; ii<probability_list.length; ii++) {
