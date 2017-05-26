@@ -4,8 +4,32 @@ body {
   font-family: @block-graphics;
 }
 
+.hed-container {
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.hed-image {
+  img {
+    width: 100%;
+  }
+}
+
 .hed {
   font-family: @med-graphics;
+  position: absolute;
+  bottom: 50px;
+  font-size: 30px;
+  max-width: 600px;
+  margin: auto;
+
+  left: 0; right: 0;
+  color: @highlight;
+  @media @mobile {
+    font-size: 20px;
+    bottom: 15px;
+  }
 }
 
 a {
@@ -72,6 +96,9 @@ a {
 .chatter {
   font-size: 16px;
   padding: 20px 0;
+  @media @mobile {
+    padding-top: 10px;
+  }
 }
 
 .bar {
