@@ -4,14 +4,9 @@
     <title><%= json.project.seo_title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="__sync_contentCategory" content="meterA">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-
-    <%= !json.project.embedded ? t.include("partials/_paywall.html") : t.include("partials/_embedframe.html") %>
-
-    <%= t.include("partials/_head.html") %>
-
+    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
   </head>
 
   <%= !json.project.embedded ? "<body>" : "<body is='responsive-body'>" %>
@@ -53,6 +48,9 @@
     </script>
 
     <script src="app.js" async></script>
+    <script>
+      var pymChild = new pym.Child();
+    </script>
     <%= t.include("partials/_helloSFC.html") %>
 
   </body>

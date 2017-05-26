@@ -1,4 +1,4 @@
-require("./lib/social"); //Do not delete
+// require("./lib/social"); //Do not delete
 
 
 var bars = document.getElementById('bars');
@@ -55,4 +55,5 @@ fillInfo();
 
 dropDown.addEventListener('change', function(d) {
   fillInfo();
+  pymChild.sendHeight()
 });
