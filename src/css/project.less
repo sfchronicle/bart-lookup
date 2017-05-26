@@ -195,6 +195,7 @@ a {
     #select-station {
       -webkit-appearance: none;
       -moz-appearance: none;
+      -o-appearance: none;
       appearance: none;
       display: inline-block;
       margin-left: 10px;
@@ -220,7 +221,7 @@ a {
       font: normal normal normal 17px/1 FontAwesome;
       position: absolute;
       right: 10px;
-      top: 5px;
+      top: 7px;
       @media @mobile {
         font-size: 25px;
         top: 12px;
@@ -229,4 +230,8 @@ a {
     }
   }
 
+}
+
+select::-ms-expand {
+  display: none;
 }
