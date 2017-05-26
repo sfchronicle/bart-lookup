@@ -16,7 +16,7 @@ var dropDown = document.getElementById('select-station');
 dropDown.addEventListener('change', function(d) {
   bars.innerHTML = '';
 
-  var html_summary = "<div class='stat'><div class='title-span'>The individual escalator(s) at this station had the following number of days out of service: </div>";
+  var html_summary = "<div class='stat'><div class='title-span'>The individual escalator(s) at this station had this many days out of service: </div>";
   var probability_list = [];
   for (var i = 0; i < bartData.length; i++) {
 
@@ -44,8 +44,8 @@ dropDown.addEventListener('change', function(d) {
   var nice_probability = Math.round(probability*100*10)/10;
 
   var info = getridership(stationData,dropDown.value);
-  var ridership = info[0]["Ridership"]
+  var ridership = info[0]["Ridership"];
 
-  barsTitle.innerHTML = "On a random day, you have a <span class='bold-text'>"+nice_probability+"%</span> chance of encountering at least one nonfunctioning escalator at "+dropDown.value+" station, where there are a total of <span class='bold-text'>"+probability_list.length+"</span> escalators(s) and <span class='bold-text'>"+ridership+"</span> riders daily.";
+  barsTitle.innerHTML = "On a random day, you have a <span class='bold-text'>"+nice_probability+"%</span> chance of encountering at least one nonfunctioning escalator at "+info[0]["StationName"]+" Station, where there are a total of <span class='bold-text'>"+probability_list.length+"</span> escalators(s) and <span class='bold-text'>"+ridership+"</span> riders daily.";
 
 });
