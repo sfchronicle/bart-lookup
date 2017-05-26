@@ -18,11 +18,13 @@
 
     <div class="drop-down">
       <div class="select-text">Select your BART station:</div>
-      <select name="select" id="select-station">
-        <% csv.stations525.forEach(function(d,idx){ %>
-          <option value='<%=d.Stations%>' class="station"><%=d.StationName%></option>
-        <% }); %>
-      </select>
+      <div class="select-container">
+        <select name="select" id="select-station">
+          <% csv.stations525.forEach(function(d,idx){ %>
+            <option value='<%=d.Stations%>' class="station"><%=d.StationName%></option>
+          <% }); %>
+        </select>
+      </div>
     </div>
 
     <div id="bars-title"></div>
@@ -49,7 +51,7 @@
 
     <script src="app.js" async></script>
     <script>
-      var pymChild = new pym.Child();
+      var pymChild = new pym.Child({polling: 500});
     </script>
     <%= t.include("partials/_helloSFC.html") %>
 
