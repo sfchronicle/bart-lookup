@@ -12,8 +12,7 @@ function getridership(data,station) {
   );
 }
 
-var dropDown = document.getElementById('select-station');
-dropDown.addEventListener('change', function(d) {
+function fillInfo(){
   bars.innerHTML = '';
 
   var html_summary = "<div class='stat'><div class='title-span'>The individual escalator(s) at this station had this many days out of service: </div>";
@@ -48,4 +47,12 @@ dropDown.addEventListener('change', function(d) {
 
   barsTitle.innerHTML = "On a random day, you have a <span class='bold-text'>"+nice_probability+"%</span> chance of encountering at least one nonfunctioning escalator at "+info[0]["StationName"]+" Station, where there are a total of <span class='bold-text'>"+probability_list.length+"</span> escalators(s) and <span class='bold-text'>"+ridership+"</span> riders daily.";
 
+}
+
+var dropDown = document.getElementById('select-station');
+dropDown.selectedIndex = 17;
+fillInfo();
+
+dropDown.addEventListener('change', function(d) {
+  fillInfo();
 });

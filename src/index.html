@@ -22,7 +22,6 @@
     <div class="drop-down">
       <div class="select-text">Select your BART station:</div>
       <select name="select" id="select-station">
-        <option value="">-- </option>
         <% csv.stations525.forEach(function(d,idx){ %>
           <option value='<%=d.Stations%>' class="station"><%=d.StationName%></option>
         <% }); %>
