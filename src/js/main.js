@@ -41,7 +41,7 @@ dropDown.addEventListener('change', function(d) {
     probability_product = probability_product*probability_list[ii];
   }
   var probability = 1-probability_product;
-  var nice_probability = Math.round(probability*100*100)/100;
+  var nice_probability = Math.round(probability*100*10)/10;
 
   var info = getridership(stationData,dropDown.value);
   var ridership = info[0]["Ridership"]
